@@ -22,8 +22,9 @@ function Home() {
             <div className='text-5xl'>
                 About
                 <p className='text-xl py-5'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores voluptates excepturi, hic, accusantium possimus necessitatibus, voluptatibus ducimus dolorem beatae tenetur ex illum animi quaerat molestias quasi eius enim deserunt fugiat!
-                    Earum repudiandae ipsum cupiditate ullam vero, blanditiis exercitationem sit deleniti tempora eveniet, sint minus atque aut ut hic. Iste, exercitationem perspiciatis. Labore reiciendis ipsam unde facilis quia, minima fuga quis?
+                    At Young Escrow, we are proud to provide our clients with the best service possible. We have been in business for 20 years and have experience in all aspects of escrow. We know that it is important to you that your escrow experience be as smooth and easy as possible. That's why we work hard to make sure your transition goes smoothly.
+
+                    We understand that when you're dealing with an escrow transaction, there's a lot at stake—especially when it comes to your finances. That's why we hold your hand through the process and make sure you feel comfortable with everything involved. We want you to feel confident that we have taken care of every detail so you can focus on other things in life!                
                 </p>
             </div>
 
