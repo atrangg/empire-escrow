@@ -17,19 +17,28 @@ function Home() {
         </div>
        
             
-        <div className=' px-10 text-center'>
+        <div className='flex flex-col w-full'>
 
-            <div className='text-5xl'>
-                About
-                <p className='text-xl py-5'>
-                    At Young Escrow, we are proud to provide our clients with the best service possible. We have been in business for 20 years and have experience in all aspects of escrow. We know that it is important to you that your escrow experience be as smooth and easy as possible. That's why we work hard to make sure your transition goes smoothly.
+            <div className='flex flex-col w-full text-center'>
 
-                    We understand that when you're dealing with an escrow transaction, there's a lot at stake—especially when it comes to your finances. That's why we hold your hand through the process and make sure you feel comfortable with everything involved. We want you to feel confident that we have taken care of every detail so you can focus on other things in life!                
-                </p>
+                    <h2 className='text-5xl text-center pt-24 text-logo-yellow'>About Us</h2>
+                
+                    <p className='text-2xl text-center px-44 py-12 leading-loose'>
+                        At Empire Escrow, our goal is to provide you with a safe and reliable escrow service.
+                        <br />
+                        Our team is experienced and always available to help you understand your options and make sure you get the best results possible.
+                        <br />
+                        <br />
+                        We will hold your hand through the process so you never have to worry about the safety of your money or property. We work hard to ensure that everyone feels secure in their purchases, and we want to make sure that you do too!
+                    </p>
+                
             </div>
 
-            <div className='text-5xl'>
+            <div className='mx-5 text-center text-5xl'>
+                <h2>
                 Our Team
+
+                </h2>
             </div>
         </div>
     </main>

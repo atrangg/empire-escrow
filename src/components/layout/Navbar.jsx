@@ -7,7 +7,7 @@ function Navbar({ title }) {
     const[navbar, setNavbar] = useState(false);
 
     const changeBackground = () => {
-        if(window.scrollY >= 30) {
+        if(window.scrollY >= 20) {
             setNavbar(true);
         } else {
             setNavbar(false);
@@ -17,7 +17,7 @@ function Navbar({ title }) {
     window.addEventListener('scroll', changeBackground);
 
   return (
-    <nav className={navbar ? 'navbar fixed mb-12 shadow-lg w-full bg-logo-yellow duration-500' : 'navbar fixed mb-12  w-full bg-transparent duration-500'}>
+    <nav className={navbar ? 'navbar fixed mb-12 shadow-lg w-full bg-logo-yellow duration-300' : 'navbar fixed mb-12  w-full bg-transparent duration-500'}>
         <div className='container mx-auto'>
             <div className="flex-none px-2 mx-2">
                 <Link to='/' className='text-lg font-bold align-middle'>
