@@ -1,5 +1,4 @@
 import React from 'react'
-import picture from '../components/assets/picture2.jpg'
 import logo from '../components/logos/Color-logo-no-bg.png'
 
 
@@ -34,11 +33,27 @@ function Home() {
                 
             </div>
 
-            <div className='mx-5 text-center text-5xl'>
+            <div className='mx-5 text-center text-5xl p-10 '>
                 <h2>
                 Our Team
-
                 </h2>
+                <div className='flex flex-row justify-around p-14'>
+
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">May </h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                            </div>
+                    </div>
+                    <div className="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
+                            <div className="card-body">
+                                <h2 className="card-title">Jimmy Thach</h2>
+                                <p>If a dog chews shoes whose shoes does he choose?</p>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
