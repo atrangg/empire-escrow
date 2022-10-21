@@ -1,8 +1,21 @@
 import React from 'react'
 import logo from '../components/logos/Color-logo-no-bg.png'
+import {useState} from 'react'
 
 
 function Home() {
+
+    const[background, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 20) {
+            setNavbar(true);
+        } else {
+            setNavbar(false);
+        }
+    };
+
+    window.addEventListener('scroll', changeBackground);
 
 
   return (
@@ -12,7 +25,7 @@ function Home() {
             {/* added bg-coast in tailwind.config.js */}
             <img src={logo} alt="" className=' 
             w-auto px-40
-            bg-coast bg-no-repeat bg-cover bg-center bg-fixed'/>
+            bg-coast bg-cover bg-center bg-fixed '/>
         </div>
        
             

@@ -17,7 +17,7 @@ function Navbar({ title }) {
     window.addEventListener('scroll', changeBackground);
 
   return (
-    <nav className={navbar ? 'navbar fixed mb-12 shadow-lg w-full bg-logo-yellow duration-300 z-50' : 'navbar fixed mb-12  w-full bg-transparent duration-500'}>
+    <nav className={navbar ? 'navbar fixed mb-12 shadow-lg w-full bg-logo-yellow duration-300 z-50' : 'navbar fixed mb-12 w-full bg-transparent duration-300'}>
         <div className='container mx-auto'>
             <div className="flex-none px-2 mx-2">
                 <Link to='/' className='text-lg font-bold align-middle'>
@@ -27,14 +27,13 @@ function Navbar({ title }) {
 
             <div className="flex-1 px-2 mx-2">
                 <div className="flex justify-end">
-                    {/* style={{color: '#C8B568'}} */}
                     <Link to='/' className='text-white btn btn-ghost btn-sm' >
                         Home
                     </Link>
-                    <Link to='/' className='text-white btn btn-ghost btn-sm' >
+                    <Link to='/About' className='text-white btn btn-ghost btn-sm' >
                         About
                     </Link>
-                    <Link to='/' className='text-white btn btn-ghost btn-sm'>
+                    <Link to='/Contact' className='text-white btn btn-ghost btn-sm'>
                         Contact
                     </Link>
                 </div>
